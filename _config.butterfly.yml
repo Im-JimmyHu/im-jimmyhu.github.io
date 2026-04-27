@@ -1,0 +1,80 @@
+# Butterfly Theme Config
+# https://butterfly.js.org/
+
+# Navigation
+nav:
+  logo:
+  display_title: true
+  fixed: true
+
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  分类: /categories/ || fas fa-folder-open
+  标签: /tags/ || fas fa-tags
+  关于: /about/ || fas fa-heart
+
+# Social
+social:
+  fab fa-github: https://github.com/Im-JimmyHu || Github
+
+# Avatar
+avatar:
+  img:
+  effect: true
+
+# Top images
+disable_top_img: false
+default_top_img: /img/default_top_img.svg
+index_img:
+
+# Footer
+footer:
+  owner:
+    enable: true
+    since: 2026
+  copyright:
+    enable: true
+    version: true
+  custom_text:
+
+# Aside
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true
+  position: right
+  card_author:
+    enable: true
+    description: 热爱技术的开发者
+    button:
+      enable: true
+      icon: fab fa-github
+      text: Follow Me
+      link: https://github.com/Im-JimmyHu
+
+# Post settings
+post_copyright:
+  enable: true
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+# Dark mode
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: 1
+
+# Local search
+search:
+  use: local_search
+  local_search:
+    preload: true
+
+# Comments (set later if needed)
+comments:
+  use:
+  text: true
+  lazyload: false
+  count: false
