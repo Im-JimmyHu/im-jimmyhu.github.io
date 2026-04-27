@@ -107,7 +107,9 @@ search:
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  repo: git@github.com:Im-JimmyHu/im-jimmyhu.github.io.git
-  branch: main
+## Deployed via GitHub Actions (.github/workflows/deploy.yml)
+## Local deploy: uncomment below and run `npx hexo deploy`
+# deploy:
+#   type: git
+#   repo: git@github.com:Im-JimmyHu/im-jimmyhu.github.io.git
+#   branch: gh-pages
